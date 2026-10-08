@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "ghostfun",
+  "name": "ghostfunv1",
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-09-01",
   // nodejs_compat        -> lets Next.js server code + the `pg` Postgres driver run
@@ -14,7 +14,7 @@
     {
       "binding": "WORKER_SELF_REFERENCE",
       // must match "name" above
-      "service": "ghostfun"
+      "service": "ghostfunv1"
     }
   ],
   "observability": {
